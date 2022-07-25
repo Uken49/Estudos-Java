@@ -8,6 +8,7 @@ public class Aula02OperadoresAritmeticos {
             Operador de subtração: -
             Operador de multiplicação: *
             Operador de divisão: /
+            Operador de resto da divisão (MOD): %
         */
                 
         // Maneira diferente de declara mais de uma variavel do mesmo tipo
@@ -17,11 +18,13 @@ public class Aula02OperadoresAritmeticos {
         int sub = valor1 - valor2;
         int mult = valor1 * valor2;
         int div = valor1 / valor2;
+        int resto = valor1 % valor2;
         
         System.out.println("Soma: "+soma);
         System.out.println("Subtração: "+sub);
         System.out.println("Multiplicação: "+mult);
         System.out.println("Divisão: "+div);
+        System.out.println("Resto da divisão: "+resto);
         
     }
 }
