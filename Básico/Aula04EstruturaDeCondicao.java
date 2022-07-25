@@ -23,5 +23,10 @@ public class Aula04EstruturaDeCondicao {
         } else {
             System.out.println("Adulto");
         }
+        
+        // O if não precisa do else para funcionar, mas o contrário não se aplica
+        if(idade > 16){
+            System.out.println("Ohayo");
+        }
     }
 }
